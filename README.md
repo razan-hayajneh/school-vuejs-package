@@ -8,7 +8,7 @@
 
 
 ## 2.install library
-    composer require vue-system\school
+    composer require vue-system/school
 
 ## 3.then run in terminal:
     php artisan vendor:publish --force
