@@ -1,0 +1,26 @@
+{
+    "name": "vue-system/school",
+    "description": "school system using VueJs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VueSystem\\School\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Razanhasan",
+            "email": "razanhasan896@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VueSystem\\School\\SchoolServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
