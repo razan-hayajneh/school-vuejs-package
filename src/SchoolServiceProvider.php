@@ -23,9 +23,7 @@ class SchoolServiceProvider extends ServiceProvider{
         $this->publishes([
             __DIR__.'/providers' => app_path('providers')
         ], 'school-providers');
-        $this->publishes([
-            __DIR__.'/middleware' => app_path('http/middleware')
-        ], 'school-middleware');
+
         $this->publishes([
             __DIR__.'/routes/web.php' => base_path('routes/web.php')
         ], 'school-web');

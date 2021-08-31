@@ -10,10 +10,8 @@
 ## 2.install library
     composer require vue-system\school
 
-## 3.in config->app.php add to providers array
-    VueSystem\School\SchoolServiceProvider::class,
-## then run in terminal:
-    php artisan vendor:publish --fource
+## 3.then run in terminal:
+    php artisan vendor:publish --force
 ## 4.Database Migration
     php artisan migrate --seed
 ## 5.npm
